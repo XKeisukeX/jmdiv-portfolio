@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header Section -->
+           <header class="fixed w-full top-0 bg-neutral z-10 shadow shadow-b shadow-gray-600">
+            <div class="max-w-screen-xl mx-auto">
+                <nav class="px-4 py-4 flex items-center justify-between">
+                    <a href="#" class="text-2xl text-white font-bold logo">JMD.</a>
+                    <ul class="md:flex items-center gap-8 hidden">
+                        <li>
+                            <a href="#" class="font-semibold text-white hover:text-primary trasition ease-in duration-200">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="font-semibold text-white hover:text-primary trasition ease-in duration-200">About</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="font-semibold text-white hover:text-primary trasition ease-in duration-200">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#testimonial" class="font-semibold text-white hover:text-primary trasition ease-in duration-200">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="font-semibold text-white hover:text-primary trasition ease-in duration-200">Services</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="font-semibold text-white hover:text-primary trasition ease-in duration-200">Contacts</a>
+                        </li>
+                    </ul>
+                    <button class="block md:hidden group">
+                        <div class="w-6 h-1 bg-gray-200 mb-1"></div>
+                        <div class="w-6 h-1 bg-gray-200 mb-1"></div>
+                        <div class="w-6 h-1 bg-gray-200"></div>
+                        <ul class="absolute -right-full top-0 flex flex-col items-center bg-neutral h-screen w-8/12 pt-10 transform opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-500">
+                            <li class="py-6 hover:bg-primary transition ease-in duration-200 w-full">
+                                <a href="#" class="font-semibold text-white hover:text-white trasition ease-in duration-200">Home</a>
+                            </li>
+                            <li class="py-6 hover:bg-primary transition ease-in duration-200 w-full">
+                                <a href="#about" class="font-semibold text-white hover:text-white trasition ease-in duration-200">About</a>
+                            </li>
+                            <li class="py-6 hover:bg-primary transition ease-in duration-200 w-full">
+                                <a href="#portfolio" class="font-semibold text-white hover:text-white trasition ease-in duration-200">Portfolio</a>
+                            </li>
+                            <li class="py-6 hover:bg-primary transition ease-in duration-200 w-full">
+                                <a href="#testimonial" class="font-semibold text-white hover:text-white trasition ease-in duration-200">Testimonials</a>
+                            </li>
+                            <li class="py-6 hover:bg-primary transition ease-in duration-200 w-full">
+                                <a href="#services" class="font-semibold text-white hover:text-white trasition ease-in duration-200">Services</a>
+                            </li>
+                            <li class="py-6 hover:bg-primary transition ease-in duration-200 w-full">
+                                <a href="#contact" class="font-semibold text-white hover:text-white trasition ease-in duration-200">Contacts</a>
+                            </li>
+                        </ul>
+                    </button>
+                </nav>
+            </div>
+           </header>
+    <!-- End of Header Section -->
+
+    <!-- Hero Section -->
+        <section id="home" class="bg-neutral mt-14 md:mt-0">
+            <div class="max-w-screen-xl mx-auto md:py-40 py-16 px-4 flex flex-col md:flex-row items-center md:gap-12">
+                <div class="md:w-1/2 text-center md:text-left md:mt-10 hero-animate">
+                    <p class="text-primary font-medium uppercase">Hey I'm John Mark 👋</p>
+                    <h2 class="lg:text-6xl md:text-4xl text-3xl font-semibold py-3 hero-text text-white">I Design and Create Things for the Web</h2>
+                    <p class="mb-8 text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos natus velit itaque, distinctio eius maiores!</p>
+                    <button class="py-2 px-4 bg-primary dark:bg-primary dark:hover:bg-gray-700 dark:border-gray-700 text-white font-semibold rounded transition ease-in duration-200">Work with me</button>
+                </div>
+                <div class="heroImg-animate">
+                    <img class="md:flex hidden -mb-40" src="/Images/jmd6-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </section>
+    <!-- End of Hero Section -->
+
+    <!-- About Section -->
+        <section id="about" class="bg-black/5">
+            <div class="max-w-screen-lg mx-auto py-16 px-4 flex flex-col md:flex-row gap-12 items-center justify-center">
+                <div class="aboutImg-animate">
+                    <img class="md:h-[300px] md:w-[900px] size-80 rounded-lg object-cover" src="/Images/ssstik.io_1716971056935.jpeg" alt="">
+                </div>
+                <div class="text-center md:text-left about-animate">
+                    <h3 class="md:text-4xl text-3xl font-bold text-white about-text">John Mark Depaclayon</h3>
+                    <p class="text-primary font-semibold mb-8 text-xl">Frontend Developer</p>
+                    <p class="text-gray-400 leading-relaxed mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dolor adipisci cum rerum maxime odio. Beatae quos possimus obcaecati voluptatem non magni quam tempora labore a quasi est rerum amet maxime numquam, facere quod ratione qui voluptatum praesentium! Doloribus, quam!</p>
+                    <button class="py-2 px-4 bg-primary dark:bg-primary dark:hover:bg-gray-700 dark:border-gray-700 text-white font-semibold rounded transition ease-in duration-200">Contact Me</button>
+                </div>
+            </div>
+        </section>
+    <!-- End of About Section -->
+
+    <!-- Tools -->
+    <div class="bg-neutral">
+        <div class="max-w-screen-lg mx-auto py-5 px-4">
+            <div class="flex md:flex-row flex-wrap items-center justify-center md:gap-20 gap-5 icon">
+                <img class="md:size-12 size-10" src="https://cdn4.iconfinder.com/data/icons/iconsimple-programming/512/html-512.png" alt="">
+                <img class="md:size-12 size-10" src="https://static-00.iconduck.com/assets.00/file-type-css-icon-1806x2048-r5fwjl3p.png" alt="">
+                <img class="md:size-12 size-10 rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpuYdLEzBvwemix8pwsncUkLLOQqnByncadg&s" alt="">
+                <img class="md:size-12 size-10" src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="">
+                <img class="md:size-12 size-10" src="https://avatars.githubusercontent.com/u/76870092?s=280&v=4" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End of Tools -->
+
+    <!-- Portfolio Section -->
+        <section id="portfolio" class="bg-black/5">
+            <div class="max-w-screen-lg mx-auto py-16 px-4">
+                <div class="text-center md:w-1/2 m-auto mb-10">
+                    <h2 class="md:text-4xl text-3xl font-bold text-white portfolio-text mb-3 PTitle-animate">My Latest Work</h2>
+                    <p class="text-gray-400 leading-relaxed PDesc-animate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusantium blanditiis tenetur molestiae qui rerum autem praesentium ipsa at et, aperiam rem obcaecati porro quos?</p>
+                </div>
+                <div class="z-5">
+                    <div role="tablist" class="tabs tabs-boxed p-2 rounded-lg">
+                        <input type="radio" name="my_tabs_2" role="tab" class="tab font-semibold text-white" aria-label="All" />
+                        <div role="tabpanel" class="tab-content bg-neutral border-base-300 rounded-box p-6 mt-5">
+                            <div class="flex flex-col justify-center items-center md:gap-12 gap-5">
+                                <div class="flex flex-col md:flex-row items-center md:gap-12 gap-5">
+                                    <div class="relative overflow-hidden group">
+                                        <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/uploads/1311/original/ed3002c94364c21b430f7ab08b6c1466.gif?1558642477" alt="">
+                                        <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                            <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                                <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="relative overflow-hidden group">
+                                        <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/1233499/screenshots/3850691/web-development.gif" alt="">
+                                        <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                            <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                                <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="relative overflow-hidden group">
+                                        <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/1233499/screenshots/3850297/web-development5.gif" alt="">
+                                        <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                            <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                                <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col md:flex-row items-center md:gap-12 gap-5">
+                                    <div class="relative overflow-hidden group">
+                                        <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/1912990/screenshots/6496981/web_developing.gif" alt="">
+                                        <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                            <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                                <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="relative overflow-hidden group">
+                                        <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/1491488/screenshots/5096807/gif.gif" alt="">
+                                        <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                            <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                                <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="relative overflow-hidden group">
+                                        <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/214929/screenshots/3813349/media/29b33be58a54e87c8e97f3565e18ff67.gif" alt="">
+                                        <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                            <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                                <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <input type="radio" name="my_tabs_2" role="tab" class="tab font-semibold text-white" aria-label="Construction" checked />
+                        <div role="tabpanel" class="tab-content bg-neutral border-base-300 rounded-box p-6 mt-5">
+                            <div class="flex flex-col md:flex-row items-center justify-center md:gap-12 gap-5">
+                                <div class="relative overflow-hidden group">
+                                    <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/1912990/screenshots/6496981/web_developing.gif" alt="">
+                                    <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                        <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                            <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="relative overflow-hidden group">
+                                    <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/1233499/screenshots/3850691/web-development.gif" alt="">
+                                    <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                        <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                            <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="relative overflow-hidden group">
+                                    <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/1233499/screenshots/3850297/web-development5.gif" alt="">
+                                    <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                        <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                            <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <input type="radio" name="my_tabs_2" role="tab" class="tab font-semibold text-white" aria-label="Integration" />
+                        <div role="tabpanel" class="tab-content bg-neutral border-base-300 rounded-box p-6 mt-5">
+                            <div class="flex flex-col md:flex-row items-center justify-center md:gap-12 gap-5">
+                                <div class="relative overflow-hidden group">
+                                    <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/1491488/screenshots/5096807/gif.gif" alt="">
+                                    <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                        <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                            <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="relative overflow-hidden group">
+                                    <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/uploads/1311/original/ed3002c94364c21b430f7ab08b6c1466.gif?1558642477" alt="">
+                                    <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                        <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                            <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="relative overflow-hidden group">
+                                    <img class="lg:size-64 md:size-40 rounded-lg" src="https://cdn.dribbble.com/users/214929/screenshots/3813349/media/29b33be58a54e87c8e97f3565e18ff67.gif" alt="">
+                                    <div class="absolute w-full h-full bg-black/40 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition duration-300">
+                                        <a href="#" class="bg-primary p-2 size-14 rounded-full text-center flex items-center justify-center">
+                                            <i class="fa fa-link text-white font-bold" style="font-size: 1.3rem;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End of Portfolio Section -->
+
+    <!-- Testimonial Section -->
+        <section id="testimonial" class="bg-neutral">
+            <div class="max-w-screen-xl mx-auto py-16 px-4">
+                <div class="text-center md:w-1/2 m-auto mb-10">
+                    <h4 class="font-bold text-medium uppercase text-gray-700 dark:text-gray-400 mb-2 TDesc-animate">Testimonials</h4>
+                    <h2 class="md:w-1/2 m-auto md:text-4xl text-3xl font-bold text-white service-text mb-3 TTitle-animate">Read What Others Have To Say</h2>
+                </div>
+                <div class="responsive group">
+                    <div class="p-3">
+                        <div class="block max-w-sm rounded-lg bg-black/40 p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-300 cursor-pointer">
+                            <img class="object-cover size-20 rounded-full m-auto border border-gray-500" src="/Images/ssstik.io_1716971056935.jpeg" alt="">
+                            <div class="text-center">
+                                <h4 class="text-gray-900 dark:text-white font-bold text-xl tracking-tight mb-2">John Doe</h4>
+                                <p class="text-gray-700 dark:text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime exercitationem, officiis in deleniti ipsum iusto.</p>
+                                <button class="btn btn-primary text-white font-bold">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="block max-w-sm rounded-lg bg-black/40 p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-300 cursor-pointer">
+                            <img class="object-cover size-20 rounded-full m-auto border border-gray-500" src="/Images/ssstik.io_1716971056935.jpeg" alt="">
+                            <div class="text-center">
+                                <h4 class="text-gray-900 dark:text-white font-bold text-xl tracking-tight mb-2">John Doe</h4>
+                                <p class="text-gray-700 dark:text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime exercitationem, officiis in deleniti ipsum iusto.</p>
+                                <button class="btn btn-primary text-white font-bold">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="block max-w-sm rounded-lg bg-black/40 p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-300 cursor-pointer">
+                            <img class="object-cover size-20 rounded-full m-auto border border-gray-500" src="/Images/ssstik.io_1716971056935.jpeg" alt="">
+                            <div class="text-center">
+                                <h4 class="text-gray-900 dark:text-white font-bold text-xl tracking-tight mb-2">John Doe</h4>
+                                <p class="text-gray-700 dark:text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime exercitationem, officiis in deleniti ipsum iusto.</p>
+                                <button class="btn btn-primary text-white font-bold">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="block max-w-sm rounded-lg bg-black/40 p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-300 cursor-pointer">
+                            <img class="object-cover size-20 rounded-full m-auto border border-gray-500" src="/Images/ssstik.io_1716971056935.jpeg" alt="">
+                            <div class="text-center">
+                                <h4 class="text-gray-900 dark:text-white font-bold text-xl tracking-tight mb-2">John Doe</h4>
+                                <p class="text-gray-700 dark:text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime exercitationem, officiis in deleniti ipsum iusto.</p>
+                                <button class="btn btn-primary text-white font-bold">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="block max-w-sm rounded-lg bg-black/40 p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-300 cursor-pointer">
+                            <img class="object-cover size-20 rounded-full m-auto border border-gray-500" src="/Images/ssstik.io_1716971056935.jpeg" alt="">
+                            <div class="text-center">
+                                <h4 class="text-gray-900 dark:text-white font-bold text-xl tracking-tight mb-2">John Doe</h4>
+                                <p class="text-gray-700 dark:text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime exercitationem, officiis in deleniti ipsum iusto.</p>
+                                <button class="btn btn-primary text-white font-bold">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="block max-w-sm rounded-lg bg-black/40 p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-300 cursor-pointer">
+                            <img class="object-cover size-20 rounded-full m-auto border border-gray-500" src="/Images/ssstik.io_1716971056935.jpeg" alt="">
+                            <div class="text-center">
+                                <h4 class="text-gray-900 dark:text-white font-bold text-xl tracking-tight mb-2">John Doe</h4>
+                                <p class="text-gray-700 dark:text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime exercitationem, officiis in deleniti ipsum iusto.</p>
+                                <button class="btn btn-primary text-white font-bold">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="block max-w-sm rounded-lg bg-black/40 p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-300 cursor-pointer">
+                            <img class="object-cover size-20 rounded-full m-auto border border-gray-500" src="/Images/ssstik.io_1716971056935.jpeg" alt="">
+                            <div class="text-center">
+                                <h4 class="text-gray-900 dark:text-white font-bold text-xl tracking-tight mb-2">John Doe</h4>
+                                <p class="text-gray-700 dark:text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime exercitationem, officiis in deleniti ipsum iusto.</p>
+                                <button class="btn btn-primary text-white font-bold">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End of Testimonial Section -->
+
+    <!-- Services Section -->
+        <section id="services" class="bg-black/40">
+            <div class="max-w-screen-xl mx-auto py-16 px-4">
+                <div class="text-center md:w-1/2 m-auto mb-10">
+                    <h2 class="md:text-4xl text-3xl font-bold text-white service-text mb-3 STitle-animate">What I Do for Clients</h2>
+                    <p class="text-gray-400 leading-relaxed SDesc-animate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusantium blanditiis tenetur molestiae qui rerum autem praesentium ipsa at et, aperiam rem obcaecati porro quos?</p>
+                </div>
+                <div class="flex items-center flex-col md:flex-row gap-5">
+                    <div class="card bg-black/40 skeleton border border-neutral-500">
+                        <img class="size-12 ml-7 mt-5" src="/Images/icons8-web-design-48.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title font-semibold text-white">Web Design</h3>
+                            <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti expedita ad id laborum eum dolore recusandae officiis eius quae?</p>
+                        </div>
+                    </div>
+                    <div class="card bg-black/40 skeleton border border-neutral-500">
+                        <img class="size-12 ml-7 mt-5" src="/Images/icons8-web-development-48.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title font-semibold text-white">Web Development</h3>
+                            <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti expedita ad id laborum eum dolore recusandae officiis eius quae?</p>
+                        </div>
+                    </div>
+                    <div class="card bg-black/40 skeleton border border-neutral-500">
+                        <img class="size-12 ml-7 mt-5" src="/Images/icons8-function-48.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title font-semibold text-white">User Interfaces</h3>
+                            <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti expedita ad id laborum eum dolore recusandae officiis eius quae?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End of Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-neutral">
+        <div class="max-w-screen-2xl mx-auto py-16 px-4">
+            <div class="text-center md:w-1/2 m-auto md:mb-20 mb-10">
+                <h2 class="md:text-4xl text-3xl font-bold text-white contact-text mb-3 CTitle-animate">Contact Me</h2>
+                <p class="text-gray-400 leading-relaxed CDesc-animate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusantium blanditiis tenetur molestiae qui rerum autem praesentium ipsa at et, aperiam rem obcaecati porro quos?</p>
+            </div>
+            <div class="flex flex-col md:flex-row items-start justify-center gap-12 contact-animate">
+                <div class="flex flex-col space-y-5">
+                    <div class="flex flex-row gap-5">
+                        <img class="size-10" src="/Images/icons8-question-48.png" alt="">
+                        <div>
+                            <h3 class="font-bold text-white mb-1">Have a Question?</h3>
+                            <p class="text-gray-400 text-sm">I am here to help you</p>
+                            <p class="text-primary text-sm">Email me at johnmarkdepaclayon10@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row gap-5">
+                        <img class="size-10" src="/Images/icons8-location-48.png" alt="">
+                        <div>
+                            <h3 class="font-bold text-white mb-1">Current Location</h3>
+                            <p class="text-gray-400 text-sm">Pangasinan, Philippines</p>
+                            <p class="text-primary text-sm">Serving client worldwide</p>
+                        </div>
+                    </div>
+                </div>
+                <form>
+                    <div class="grid grid-cols-2 gap-4 form-animate">
+                        <input type="text" class="p-3 w-full rounded text-white bg-gray-600 font-bold text-sm focus:outline-none" placeholder="Your Name">
+                        <input type="text" class="p-3 w-full rounded text-white bg-gray-600 font-bold text-sm focus:outline-none" placeholder="Your Email">
+                        <input type="text" class="p-3 w-full col-span-2 rounded text-white bg-gray-600 font-bold text-sm focus:outline-none" placeholder="Your Subject">
+                        <textarea class="pb-14 p-3 w-full col-span-2 rounded text-white bg-gray-600 font-bold text-sm focus:outline-none" placeholder="Your Message"></textarea>
+                        <button class="md:col-span-1 col-span-2 py-2 px-4 bg-primary dark:bg-primary dark:hover:bg-gray-700 dark:border-gray-700 text-white font-semibold rounded transition ease-in duration-200">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Footer -->
+    <footer class="footer footer-center p-10 bg-black text-primary-conten">
+        <aside>
+          <h4 class="text-3xl text-white font-bold logo">PORTFOLIO</h4>
+          <p class="text-gray-400">© John Mark Depaclayon</p>
+        </aside> 
+        <nav class="flex flex-row gap-3 -m-3 footer-animate">
+            <a href="#" class="dark:bg-neutral dark:hover:bg-primary dark:border-gray-700 w-full h-12 rounded-full transition ease-in-out duration-200">
+                <i class="fa fa-telegram text-white p-3" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="#" class="dark:bg-neutral dark:hover:bg-primary dark:border-gray-700 w-full h-12 rounded-full transition ease-in-out duration-200">
+                <i class="fa fa-telegram text-white p-3" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="#" class="dark:bg-neutral dark:hover:bg-primary dark:border-gray-700 w-full h-12 rounded-full transition ease-in-out duration-200">
+                <i class="fa fa-telegram text-white p-3" style="font-size: 1.5rem;"></i>
+            </a>
+        </nav>
+      </footer>
+    <!-- End of Footer -->
+
+    <!-- Slick Slider Carousel -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- End of Slick Slider Carousel -->
+
+    <!-- Scroll Animation -->
+      <script>
+        ScrollReveal({
+            reset: true,
+            distance: '50px',
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.hero-animate', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.heroImg-animate', { delay: 600, origin: 'right' });
+        ScrollReveal().reveal('.about-animate', { delay: 800, origin: 'right' });
+        ScrollReveal().reveal('.aboutImg-animate', { delay: 900, origin: 'left' });
+        ScrollReveal().reveal('.icon img', { delay: 500, origin: 'bottom', interval: 800 });
+        ScrollReveal().reveal('.PTitle-animate', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.PDesc-animate', { delay: 500, origin: 'right' });
+        ScrollReveal().reveal('.TTitle-animate', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.TDesc-animate', { delay: 500, origin: 'right' });
+        ScrollReveal().reveal('.STitle-animate', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.SDesc-animate', { delay: 500, origin: 'right' });
+        ScrollReveal().reveal('.CTitle-animate', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.CDesc-animate', { delay: 500, origin: 'right' });
+        ScrollReveal().reveal('.contact-animate', { delay: 600, origin: 'left' });
+        ScrollReveal().reveal('.form-animate', { delay: 700, origin: 'right' });
+        ScrollReveal().reveal('.footer-animate a', { delay: 500, origin: 'left', interval: 200 });
+
+        $('.responsive').slick({
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+            ]
+            });
+      </script>
+    <!-- End of Scroll Animation -->
+</body>
+</html>
